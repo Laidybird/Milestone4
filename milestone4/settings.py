@@ -60,8 +60,10 @@ ROOT_URLCONF = 'milestone4.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
-        'APP_DIRS': True,
+        'DIRS': [
+            os.path.join(os.path.dirname(os.path.dirname(__file__)), 'allauth/templates'),
+        ],
+        'APP_DIRS': False,
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
@@ -72,7 +74,6 @@ TEMPLATES = [
         },
     },
 ]
-
 
 AUTHENTICATION_BACKENDS = [
     # Needed to login by username in Django admin, regardless of `allauth`
