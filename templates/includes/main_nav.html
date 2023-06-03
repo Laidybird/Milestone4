@@ -17,10 +17,10 @@
                Mugs
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="mugs-link">
-                <a href="" class="dropdown-item">Mother's Day</a>
-                <a href="" class="dropdown-item">Father'Day</a>
-                <a href="" class="dropdown-item">Office Mugs</a>
-                <a href="" class="dropdown-item">All Mugs</a>
+                <a href="{% url 'products' %}?category=mother's_day_mugs" class="dropdown-item">Mother's Day</a>
+                <a href="{% url 'products' %}?category=father's_day_mugs" class="dropdown-item">Father'Day</a>
+                <a href="{% url 'products' %}?category=office_mugs" class="dropdown-item">Office Mugs</a>
+                <a href="{% url 'products' %}?category=mother's_day_mugs,father's_day_mugs,office_mugs" class="dropdown-item">All Mugs</a>
             </div>
         </li>
 
@@ -29,19 +29,7 @@
                 Pillows
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="pillows-link">
-                <a href="" class="dropdown-item">Decor Pillows</a>
-            </div>
-        </li>
-
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Special Offers
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Arrivals</a>
-                <a href="" class="dropdown-item">Deals</a>
-                <a href="" class="dropdown-item">Clearance</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=pillows" class="dropdown-item">Decor Pillows</a>
             </div>
         </li>
     </ul>
