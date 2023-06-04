@@ -4,7 +4,15 @@ from django.db.models import Q
 from django.db.models.functions import Lower
 from .models import Product, Category
 
-# Create your views here.
+
+def decrease_quantity(product, quantity):
+    """Helper function to decrease the product quantity"""
+    if quantity > product.quantity:
+        return False  # Insufficient quantity available
+    product.quantity -= quantity
+    product.save()
+    return True
+
 
 def all_products(request):
     """ A view to show all products, including sorting and search queries """
@@ -14,6 +22,7 @@ def all_products(request):
     categories = None
     sort = None
     direction = None
+    product = None  # Define product with a default value
 
     if request.GET:
         if 'sort' in request.GET:
@@ -44,8 +53,21 @@ def all_products(request):
             queries = Q(name__icontains=query) | Q(description__icontains=query)
             products = products.filter(queries)
 
-    current_sorting = f'{sort}_{direction}'
+    if request.method == 'POST':
+        product_id = request.POST.get('product_id')
+        quantity = int(request.POST.get('quantity', 1))
+        product = get_object_or_404(Product, pk=product_id)
+        if decrease_quantity(product, quantity):
+            # Quantity check passed, perform the purchase action
+            # ...
+            messages.success(request, "Purchase successful!")
+            return redirect('success_page')
+        else:
+            messages.error(request, "Insufficient quantity available.")
+            return redirect(reverse('product_detail', args=[product_id]))
 
+    current_sorting = f'{sort}_{direction}'
+      
     context = {
         'products': products,
         'search_term': query,
