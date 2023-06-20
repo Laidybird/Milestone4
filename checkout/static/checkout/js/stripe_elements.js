@@ -40,7 +40,7 @@ card.addEventListener('change', function(event) {
 var form = document.getElementById('payment-form');
 form.addEventListener('submit', function(event) {
   event.preventDefault();
-
+  
   // Disable the submit button
   document.getElementById('submit-button').disabled = true;
 
