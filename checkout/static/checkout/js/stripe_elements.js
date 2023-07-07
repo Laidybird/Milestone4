@@ -1,26 +1,27 @@
-var stripePublicKey = $('#id_stripe_public_key').text();
+var stripePublicKey = $('#id_stripe_public_key').text().slice(1, -1);
 var clientSecret = $('#id_client_secret').text();
 var stripe = Stripe(stripePublicKey);
 var elements = stripe.elements();
-
-// Create a style object for the card element
 var style = {
-  base: {
-    color: '#000',
-    fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
-    fontSmoothing: 'antialiased',
-    fontSize: '16px',
-    '::placeholder': {
-      color: '#aab7c4'
+    base: {
+        color: '#000',
+        fontFamily: '"Helvetica Neue", Helvetica, sans-serif',
+        fontSmoothing: 'antialiased',
+        fontSize: '16px',
+        '::placeholder': {
+            color: '#aab7c4'
+        }
+    },
+    invalid: {
+        color: '#dc3545',
+        iconColor: '#dc3545'
     }
-  },
-  invalid: {
-    color: '#dc3545',
-    iconColor: '#dc3545'
-  }
 };
 
-// Create a card element
+var paymentIntentId = "req_KaVuSIoWIUlnEp";
+console.log("Payment Intent ID: " + paymentIntentId);
+
+
 var card = elements.create('card', {style: style});
 card.mount('#card-element');
 
