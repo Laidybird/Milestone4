@@ -11,6 +11,7 @@ from products.models import Product
 from profiles.models import UserProfile
 from profiles.forms import UserProfileForm
 from bag.contexts import bag_contents
+from products.views import decrease_quantity
 
 import stripe
 import json
@@ -71,6 +72,7 @@ def checkout(request):
                             quantity=item_data,
                         )
                         order_line_item.save()
+                        decrease_quantity(product, item_data)  # Decrease the quantity
                 except Product.DoesNotExist:
                     messages.error(request, (
                         "One of the products in your bag wasn't found in our database. "
