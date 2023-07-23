@@ -58,6 +58,42 @@
 * [Stripe](https://stripe.com/) was used for payment integration.
 
 
+## User Stories 
+
+* As a customer, I want to be able to browse a wide variety of mugs and pillows on the website so that I can find the perfect design that suits my preferences and style
+* As a first-time visitor, I want a user-friendly and intuitive navigation system that enables me to easily filter products based on categories, prices, and customer ratings, so I can quickly locate the items I'm interested in
+* As a mobile user, I want the website to be fully responsive and optimized for different screen sizes, ensuring a smooth and enjoyable shopping experience on my smartphone or tablet.
+* As a returning customer, I want to have the option to create an account and sign in, allowing me to track my order history.
+
+## Registration and User Accounts
+* Be able to register for an account.
+* Be adble to log in or log out.
+* Easily recover my password in case I forget it.
+* Receive an email confirmation after registering.
+* Have a personalised user profile.
+
+
+## Sorting and Setting
+* Sort the list of available products.
+* Sort a specific category of product.
+* Search for a product by name or description.
+
+
+## Purchasing and Checkout
+* Be able to  select the quantity of a product when purchasing it.
+* View items in my bag to be purchased.
+* Adjust the number of individual items in my bag.
+* Easily enter my payment information.
+* Feel my personal and payment information is safe and secure.
+* View an order confirmation after checkout.
+* Receive an email confirmation after checking out.
+
+## Admin and Store Management
+* B eable to add products.
+* Access to Edit/update a product.
+* Access to Delete a product.
+
+
 
 # Deployment and Local Development
 
@@ -112,5 +148,42 @@
 4. Click "Open with GitHub Desktop" to clone and open the repository with GitHub Desktop.
 5. Click "Choose..." and, using Windows Explorer, navigate to a local path where you want to clone the repository.
 6. Click "Clone".
+
+
+# Design 
+
+## Home page
+![home](https://github.com/Laidybird/Milestone4/assets/66474546/a0d06e6b-3941-4460-b2a8-1fe331f0628f)
+
+## Filtering
+![filter](https://github.com/Laidybird/Milestone4/assets/66474546/1ae4378a-7b8a-40c4-aa50-0a9f3dda41de)
+
+![mug](https://github.com/Laidybird/Milestone4/assets/66474546/654b364e-2d3d-4f23-9178-a75d89539608)
+
+## Register
+![sign up](https://github.com/Laidybird/Milestone4/assets/66474546/625f6ab0-b470-4e83-ace9-502cb568a6cd)
+
+## Login  
+![login](https://github.com/Laidybird/Milestone4/assets/66474546/5d4b0693-1384-47b4-92b8-69daba8e8648)
+
+## Shoping Bag
+![shoping bag](https://github.com/Laidybird/Milestone4/assets/66474546/86bb887a-4b9d-4d21-bd35-a625c84dc4ac)
+
+## Checkout Form
+![checkout](https://github.com/Laidybird/Milestone4/assets/66474546/30959ae1-aa6e-48ec-933c-0b6e032c4e96)
+
+
+## Color Scheme 
+
+* The predominant color of the website is black; I chose it for its simplicity and elegance.
+
+## Typography
+
+* Google Fonts was used to import Lato Text, which is a sans-serif font. 
+
+
+
+
+
 
 
