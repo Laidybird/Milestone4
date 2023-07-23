@@ -173,13 +173,30 @@
 ![checkout](https://github.com/Laidybird/Milestone4/assets/66474546/30959ae1-aa6e-48ec-933c-0b6e032c4e96)
 
 
+## Flow Chart
+
+![Shopping Process Flow Graph](https://github.com/Laidybird/Milestone4/assets/66474546/beb42976-6391-4273-afd5-734ebfc29a73)
+
+
+
+
 ## Color Scheme 
 
 * The predominant color of the website is black; I chose it for its simplicity and elegance.
 
 ## Typography
 
-* Google Fonts was used to import Lato Text, which is a sans-serif font. 
+* Google Fonts was used to import Lato Text, which is a sans-serif font.
+
+# Testing
+
+* Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+* Testing was done manually as was the case with all my projects throughout my time on the course. Testing was a constant affair during development and was tested on multiple devices at a time. This ensured that any prevalent bugs at time of development were dealt with in a swift and timely manner and not on an ad-hoc basis at the end of the Development of the Application.
+* It became apparent though that due to Django's template structure passing the templates themselves into a HTML validator was proving difficult as Jinja expressions and variable injection into the template would return as an error in the Validator.
+
+
+
+
 
 
 
