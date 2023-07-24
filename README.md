@@ -37,8 +37,8 @@
 
 * The following Languages were used to build this project:
 
-## Front-end: HTML5 CSS, JAVA-SCRIPT
-## Back-end: Python
+* Front-end: HTML5 CSS, JAVA-SCRIPT
+* Back-end: Python
 
 
 # Frameworks, Libraries & Programs Used
@@ -178,6 +178,9 @@
 ![Shopping Process Flow Graph](https://github.com/Laidybird/Milestone4/assets/66474546/beb42976-6391-4273-afd5-734ebfc29a73)
 
 
+## Models
+
+![model](https://github.com/Laidybird/Milestone4/assets/66474546/71de2947-b76a-4421-8fd5-57f7c341723c)
 
 
 ## Color Scheme 
@@ -193,8 +196,40 @@
 * Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 * Testing was done manually as was the case with all my projects throughout my time on the course. Testing was a constant affair during development and was tested on multiple devices at a time. This ensured that any prevalent bugs at time of development were dealt with in a swift and timely manner and not on an ad-hoc basis at the end of the Development of the Application.
 * It became apparent though that due to Django's template structure passing the templates themselves into a HTML validator was proving difficult as Jinja expressions and variable injection into the template would return as an error in the Validator.
+* During the stripe installation I had few issues with the payment intend and the URL, and after a few days off pulling my hair out I realized that my URL path was wrong. :))
+
+##  Base Css Test Results
+
+![base css](https://github.com/Laidybird/Milestone4/assets/66474546/e8baa879-7d74-4261-9b0f-0e0e4d49f248)
+
+##  Profile Css Test Results
+
+![profile css](https://github.com/Laidybird/Milestone4/assets/66474546/bc705058-c135-4f69-92c4-1b3c56666659)
+
+## Checkout Css Test Results
+
+![checkout css](https://github.com/Laidybird/Milestone4/assets/66474546/1e3ad006-cee8-42fa-abf5-b70df3406e08)
+
+## Checkout JS validator 
+
+![Screenshot 2023-07-24 114738](https://github.com/Laidybird/Milestone4/assets/66474546/2f618216-3822-426f-9714-80ee0fdb434a)
+
+## Profiles JS validator 
+
+![js profiles valdator](https://github.com/Laidybird/Milestone4/assets/66474546/ddcdb763-b525-4242-a117-69b4a7912ce7)
+
+* Error 
+![stripe error ](https://github.com/Laidybird/Milestone4/assets/66474546/222000b2-abcf-4010-b022-0edf623c3d46)
+
+*No Errror 
+
+![terminal](https://github.com/Laidybird/Milestone4/assets/66474546/be93c53b-c1b4-4c6c-ba49-fda25b4e9709)
 
 
+# AWS Integration 
+
+* To Integrate AWS was another nightmare as in the walkthrough project the aws dashboard is different and after adding my config values I didn't know why is not working, until with the help of student support I realized that I have to generate the credentials myself. 
+![herlogs](https://github.com/Laidybird/Milestone4/assets/66474546/b9419678-edcd-40a9-9a70-11bebac9e463)
 
 
 
