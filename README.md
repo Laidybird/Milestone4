@@ -225,11 +225,56 @@
 
 ![terminal](https://github.com/Laidybird/Milestone4/assets/66474546/be93c53b-c1b4-4c6c-ba49-fda25b4e9709)
 
+## Lighthouse
+
+![lighthouse](https://github.com/Laidybird/Milestone4/assets/66474546/71867503-b620-4d02-8b26-83025e82cfd7)
+
+
+
 
 # AWS Integration 
 
 * To Integrate AWS was another nightmare as in the walkthrough project the aws dashboard is different and after adding my config values I didn't know why is not working, until with the help of student support I realized that I have to generate the credentials myself. 
 ![herlogs](https://github.com/Laidybird/Milestone4/assets/66474546/b9419678-edcd-40a9-9a70-11bebac9e463)
+
+
+## Manual Testing 
+
+To fully test my website, I used Google Chrome Developer Tools to ensure that the pages were responsive enough on all available screen sizes. 
+
+All the links, buttons and forms passed the test
+
+## Known Bugs 
+
+* At the present time there are no bugs
+
+
+# Credits 
+
+* All my appreciation and thanks goes to the following:
+
+* First of all, I would like to thank my tutor, Manu Perez Romero, who supported me and encouraged me to persevere when I wanted to give up. I am also grateful to all my fellow colleagues from Code Institute and Pasquale Fasulo, who, together with Manu, gave me the time and understanding I needed. I wouldn't have reached this point without their support and patience.
+
+* Stack overflow
+* Armin Arnat -Udemy Python tutorial
+* Tech with Tim Youtoube Chanel
+* Program With Mosh Youtoube Chanel
+
+
+# code Used 
+
+* Code Institute's 'Boutique Ado' walkthrough was used as the starting point for this project.
+* Tech with Tim helpt me understand django and create the quantity stock.
+
+
+# Acknowledgements
+
+* I would like to acknowledge the following people who helped me along the way in completing my fourth milestone project:
+* First of all, I would like to thank my tutor, Manu Perez Romero, who supported me and encouraged me to persevere when I wanted to give up. I am also grateful to all my fellow colleagues from Code Institute and Pasquale Fasulo, who, together with Manu, gave me the time and understanding I needed. I wouldn't have reached this point without their support and patience.
+* Jason from tutor support ho helpt me when I need it.
+# Thank you!
+
+
 
 
 
