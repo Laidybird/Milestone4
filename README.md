@@ -256,6 +256,7 @@ All the links, buttons and forms passed the test
 * First of all, I would like to thank my tutor, Manu Perez Romero, who supported me and encouraged me to persevere when I wanted to give up. I am also grateful to all my fellow colleagues from Code Institute and Pasquale Fasulo, who, together with Manu, gave me the time and understanding I needed. I wouldn't have reached this point without their support and patience.
 
 * Stack overflow
+* w3schools
 * Armin Arnat -Udemy Python tutorial
 * Tech with Tim Youtoube Chanel
 * Program With Mosh Youtoube Chanel
